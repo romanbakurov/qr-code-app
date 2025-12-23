@@ -1,0 +1,42 @@
+@import url('../../styles/fonts.css');
+
+.input {
+    width: 400px;
+    height: 32px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 1px solid #3333;
+    padding: 8px 16px;
+    font-family: Comfortaa, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.button {
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    text-align: center;
+    background: #0179FD;
+    color: white;
+    border: none;
+    font-family: Comfortaa, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.result {
+    margin: 20px;
+}
+
+.result svg path:last-child {
+    fill: #111;
+}

@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 250px;
+    margin-top: 50px;
+}
+
+.result {
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-family: Comfortaa, sans-serif;
+}

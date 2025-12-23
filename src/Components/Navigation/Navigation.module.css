@@ -1,0 +1,20 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    font-family: Comfortaa, sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.nav a {
+    color: #0179FD;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    color: #7868FE;
+}
