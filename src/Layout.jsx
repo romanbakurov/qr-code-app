@@ -12,8 +12,8 @@ export const Layout = () => {
       <Routes>
         <Route path="/generate" element={<QrCodeGenerator />} />
         <Route path="/scan" element={<QrCodeScanner />} />
-        <Route path="/generateHistiry" element={<GenerateHistory />} />
-        <Route path="/scanHistiry" element={<ScanHistory />} />
+        <Route path="/generateHistory" element={<GenerateHistory />} />
+        <Route path="/scanHistory" element={<ScanHistory />} />
       </Routes>
     </div>
   );

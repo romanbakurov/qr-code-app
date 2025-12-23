@@ -6,8 +6,8 @@ export const Navigation = () => {
     <nav className={N.nav}>
       <Link to="generate">Генерировать QR код</Link>
       <Link to="scan">Сканировать QR код</Link>
-      <Link to="generateHistiry">История генерирования</Link>
-      <Link to="scanHistiry">История сканирования</Link>
+      <Link to="generateHistory">История генерирования</Link>
+      <Link to="scanHistory">История сканирования</Link>
     </nav>
   );
 };
